@@ -13,6 +13,7 @@ Se ha detectado una intrusión en la red de la empresa. El objetivo de este labo
 
 **Herramienta:**
 * **Wireshark:** Analizador de protocolos de red.
+* **VirusTotal:** Plataforma de análisis de archivos maliciosos.
 
 **Preguntas y prodecimiento:**
    * **Pregunta 1:** ¿Cuál es el nombre del archivo inicial malicioso?
