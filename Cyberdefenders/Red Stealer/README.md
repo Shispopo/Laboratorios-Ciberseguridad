@@ -42,31 +42,31 @@ Su tarea es investigar este ejecutable mediante el análisis de su hash. El obje
 
 3. **Primera Detección:**
    * Encontrar la fecha y hora de la primera detección del malware en VirusTotal.
-   * ![Primera Detección](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/3.png)
+     ![Primera Detección](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/3.png)
 
 4. **Técnicas ATT&CK:**
    * Buscar las técnicas MITRE ATT&CK utilizadas por el malware en VirusTotal.
-   * ![Técnicas ATT&CK](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/4.png)
+     ![Técnicas ATT&CK](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/4.png)
 
 5. **Resolución de Nombres de Dominio:**
    * Analizar los dominios a los que se conecta el malware y verificar si son maliciosos.
-   * ![Resolución de Nombres de Dominio](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/5.png)
+     ![Resolución de Nombres de Dominio](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/5.png)
 
 6. **Comunicación con Servidor C2:**
-   * Identificar la dirección IP y el puerto del servidor C2 y analizar su reputación.
+   Identificar la dirección IP y el puerto del servidor C2 y analizar su reputación.
    * ![Comunicación con Servidor C2](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/5.png)
 
 7. **Regla YARA:**
    * Encontrar la regla YARA creada específicamente para detectar este malware en MalwareBazaar.
-   * ![Regla YARA](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/7.png)
+    ![Regla YARA](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/7.png)
 
 8. **Alias del Malware:**
    * Utilizar ThreatFox para encontrar nombres alternativos asociados al malware.
-   * ![Alias del Malware](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/8.jpeg)
+    ![Alias del Malware](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/8.jpeg)
 
 9. **DLL para Escalada de Privilegios:**
    * Identificar los DLL cargados por el malware y determinar si alguno se utiliza para escalar privilegios.
-   * ![DLL para Escalada de Privilegios](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/9.png)
+    ![DLL para Escalada de Privilegios](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Red%20Stealer/Imagenes/9.png)
 
 **Resultados Esperados:**
 
