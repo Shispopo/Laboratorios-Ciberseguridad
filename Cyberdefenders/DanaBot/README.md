@@ -29,6 +29,7 @@ Se ha detectado una intrusión en la red de la empresa. El objetivo de este labo
    * **Pregunta 3:** ¿Qué proceso se utilizó para ejecutar el archivo inicial malicioso?
      * Buscar eventos relacionados con la creación de procesos.
      * **Respuesta:** wscript.exe
+       
        ![Pregunta3](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/DanaBot/Imagenes/3.png)
        
    * **Pregunta 4:** ¿Cuál es la extensión del segundo archivo malicioso?
