@@ -4,17 +4,17 @@
 Una gran corporación multinacional depende en gran medida del software 3CX para la comunicación telefónica, lo que lo convierte en un componente crítico de sus operaciones comerciales. Después de una actualización reciente de la aplicación de escritorio 3CX, las alertas antivirus señalan instancias esporádicas de que el software se borra de algunas estaciones de trabajo, mientras que otras no se ven afectadas. Al descartar esto como un falso positivo, el equipo de TI pasa por alto las alertas, solo para notar un rendimiento degradado y un tráfico de red extraño a servidores desconocidos. Los empleados informan problemas con la aplicación 3CX y el equipo de seguridad de TI identifica patrones de comunicación inusuales relacionados con actualizaciones de software recientes.
 Como analista de inteligencia de amenazas, es su responsabilidad examinar este posible ataque a la cadena de suministro. Sus objetivos son descubrir cómo los atacantes comprometieron la aplicación 3CX, identificar al posible actor de amenazas involucrado y evaluar el alcance general del incidente.
 
-## Objetivos
+### Objetivos
 * Identificar los archivos maliciosos introducidos en las versiones comprometidas de 3CX.
 * Analizar el comportamiento del malware y determinar su funcionalidad.
 * Identificar los indicadores de compromiso (IOCs) asociados con el ataque.
 * Determinar la familia del malware y el actor de la amenaza potencialmente involucrado.
 * Evaluar el impacto del ataque en los sistemas comprometidos.
 
-## Herramientas
+### Herramientas
 * **VirusTotal:** Plataforma de análisis de archivos maliciosos.
 
-## Preguntas y procedimiento:
+### Preguntas y procedimiento:
 * **Pregunta 1**
   Comprender el alcance del ataque e identificar qué versiones presentan El comportamiento malicioso es crucial para tomar decisiones informadas si estas versiones comprometidas están presentes en la organización. ¿Cuántas versiones de 3CX que se ejecutan en Windows han sido marcadas como malware?
   Respuesta: 2
@@ -74,17 +74,10 @@ Como analista de inteligencia de amenazas, es su responsabilidad examinar este p
   * Basándose en el informe de Qualys, se ha determinado que el grupo de hackers Lazarus es el principal sospechoso detrás de este ataque. Lazarus es un grupo de hackers patrocinado por el estado, conocido por sus sofisticadas campañas de ciberespionaje y ciberataques.(https://blog.qualys.com/vulnerabilities-threat-research/2023/04/03/3cxdesktopapp-backdoored-in-a-suspected-lazarus-campaign).
   ![Grupo](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/3CX%20Supply%20Chain/Imagenes/9.png)
 
-## Recomendaciones
-* **Aislar los sistemas comprometidos:** Evitar la propagación del malware.
-* **Cambiar contraseñas:** Cambiar todas las contraseñas de las cuentas afectadas.
-* **Escanear todos los sistemas:** Realizar un escaneo completo de todos los sistemas en busca de malware.
-* **ctualizar software:** Mantener todos los sistemas y software actualizados con los últimos parches de seguridad.
-* **Implementar una solución EDR:** Utilizar una solución de detección y respuesta a endpoints para detectar y responder a amenazas en tiempo real.
-
-## Conclusión
+### Conclusión
 El ataque a la cadena de suministro de 3CX destaca la importancia de mantener una buena higiene de seguridad y estar atentos a las amenazas emergentes. Al realizar un análisis forense exhaustivo, podemos comprender mejor las tácticas utilizadas por los atacantes y tomar medidas para proteger nuestros sistemas.
 
-**Recomendaciones:**
+### Recomendaciones:
 
 * **Documentar todos los pasos:** Mantener un registro detallado del proceso de análisis.
 * **Compartir los resultados:** Contribuir a la comunidad de seguridad compartiendo tus hallazgos.
