@@ -1,4 +1,4 @@
-## Análisis del Ataque a la Cadena de Suministro de 3CX
+## 3CX Supply Chain - Analisis de archivo malicioso
 
 ### Escenario
 Una gran corporación multinacional depende en gran medida del software 3CX para la comunicación telefónica, lo que lo convierte en un componente crítico de sus operaciones comerciales. Después de una actualización reciente de la aplicación de escritorio 3CX, las alertas antivirus señalan instancias esporádicas de que el software se borra de algunas estaciones de trabajo, mientras que otras no se ven afectadas. Al descartar esto como un falso positivo, el equipo de TI pasa por alto las alertas, solo para notar un rendimiento degradado y un tráfico de red extraño a servidores desconocidos. Los empleados informan problemas con la aplicación 3CX y el equipo de seguridad de TI identifica patrones de comunicación inusuales relacionados con actualizaciones de software recientes.
