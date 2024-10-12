@@ -56,9 +56,11 @@ Como analista de inteligencia de amenazas, es su responsabilidad examinar este p
   Respuesta: VMware
   * Nos diriguimos al archivo ffmpeg.dll y lo abrimos en VirusTotal.
   * En la sesión de comportamiento desplegamos evasion de defensa. La técnica de antianálisis específica del archivo ffmpeg.dll está dirigida al hipervisor VMware. Esto sugiere que los atacantes han desarrollado técnicas para detectar y evadir los mecanismos de seguridad implementados en entornos virtualizados utilizando VMware.
-    
-    ![Hipervisor](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/3CX%20Supply%20Chain/Imagenes/7.2.png)
+  * Hacer click en el ffmpeg.dll para abrir otra página de VirusTotal.
     ![Hipervisor](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/3CX%20Supply%20Chain/Imagenes/7.1.png)
+  * Ver el comportamiento.
+    ![Hipervisor](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/3CX%20Supply%20Chain/Imagenes/7.2.png)
+    
 * **Pregunta 8**
   Identificar el método criptográfico utilizado en el malware es crucial para comprender las técnicas empleadas para eludir los mecanismos de defensa y ejecutar sus funciones en su totalidad. ¿Qué algoritmo de cifrado utiliza el archivo ffmpeg.dll?
   Respuesta: RC4
