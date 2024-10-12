@@ -58,3 +58,11 @@ Al finalizar el laboratorio, deberás ser capaz de:
 * Evaluar el impacto del incidente.
 * Proponer medidas de mitigación.
   
+**Recomendaciones:**
+
+* **Documentar todos los pasos:** Mantener un registro detallado del proceso de análisis.
+* **Compartir los resultados:** Contribuir a la comunidad de seguridad compartiendo tus hallazgos.
+* **Mantenerse actualizado:** Estar al tanto de las últimas amenazas y herramientas de análisis.
+
+**Nota:** Este laboratorio es solo un ejemplo. Puedes adaptar el procedimiento y agregar más detalles según tus necesidades y los resultados obtenidos.
+  
