@@ -28,16 +28,28 @@ Su tarea es profundizar en el volcado de memoria proporcionado por el sistema co
    * Asegúrate de tener el volcado de memoria `192-Reveal.dmp` en tu directorio de trabajo.
 2. **Identificación del Proceso Malicioso:**
    * Utiliza el comando `python3 vol.py -f 192-Reveal.dmp windows.pstree` para obtener una vista general de los procesos en ejecución.
+     ![Listar procesos sospechosos](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/1.1.png)
    * Emplea `windows.malfind` para identificar procesos sospechosos.
+     ![Procesos powershell agrega valores a la memoria](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/1.2.png)
 3. **Análisis del Proceso Malicioso:**
    * Determina el proceso padre (PPID) utilizando `pstree`.
+     ![Ver PPID en columna PIDD](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/2.png)
    * Encuentra el archivo ejecutado por el proceso malicioso con `windows.cmdline`.
+     ![Argumentos del proceso sospechoso](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/3.png)
    * Identifica la ruta del directorio compartido utilizando `strings` y buscando patrones específicos.
+     ![Identificacion de directorio](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/4.1.png)
+     ![Cadena relacionada con la IP del atacante](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/4.2.png)
    * Mapea las técnicas utilizadas con la matriz MITRE ATT&CK.
+     ![Argumento de proceso malicioso](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/5.1.png)
+     ![Tecnica Mittre](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/5.2.png)
 4. **Investigación Adicional:**
    * Busca indicios de persistencia (registros de inicio, servicios).
    * Analiza la red para identificar comunicaciones con servidores externos.
    * Busca credenciales comprometidas.
+   * Utilizar comando `python3 vol.py -f 192-Reveal.dmp userassist` para obtener la información del usuario.
+     ![Busqueda de usuario](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/6.png)
+   * Se busca la dirección IP del atacante en VirusTotal.
+     ![Busqueda nombre de la familia del malware](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/Reveal/Imagenes/7.png)
 
 ### Resultados Esperados
 Al finalizar el laboratorio, deberás ser capaz de:
