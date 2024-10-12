@@ -59,6 +59,7 @@ Como analista de inteligencia de amenazas, es su responsabilidad examinar este p
   * Hacer click en el ffmpeg.dll para abrir otra página de VirusTotal.
     ![Hipervisor](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/3CX%20Supply%20Chain/Imagenes/7.1.png)
   * Ver el comportamiento.
+    
     ![Hipervisor](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/3CX%20Supply%20Chain/Imagenes/7.2.png)
     
 * **Pregunta 8**
