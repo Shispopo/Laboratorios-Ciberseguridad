@@ -133,4 +133,4 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
 * **Desarrollo de IOCs:** Crear indicadores de compromiso (IOCs) para detectar futuras infecciones.
 * **Actualización de las reglas de detección:** Actualizar las reglas de detección de las herramientas de seguridad para identificar este tipo de amenazas.
 
-**Nota:** Este documento es un punto de partida para el análisis de este malware. A medida que se obtenga más información, se actualizará y ampliará.
+**Nota:** Este laboratorio es solo un ejemplo. Puedes adaptar el procedimiento y agregar más detalles según tus necesidades y los resultados obtenidos.
