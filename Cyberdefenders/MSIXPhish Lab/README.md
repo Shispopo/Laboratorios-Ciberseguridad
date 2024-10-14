@@ -16,6 +16,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
           * Una vez finalizado el análisis, se mostrará un informe detallado.
           * Busca la sección de "Detecciones". Aquí encontrarás una lista de los motores antivirus que han identificado el archivo como malicioso.
           * Identifica la etiqueta de amenaza más común o popular. Esta etiqueta te dará una buena indicación de la familia de malware a la que pertenece el archivo. En este caso, la etiqueta más común fue "Batloader".
+            
            ![Familia del malware](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/1.png) 
         
   * Es importante identificar la primera aparición pública del malware para realizar un seguimiento eficaz de su historial y propagación. ¿Puede proporcionar la fecha y hora de envío inicial de este malware en VirusTotal?
@@ -24,6 +25,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
       * Buscar la pestaña "Detalles" o "Información": Esta pestaña suele contener datos exhaustivos sobre el archivo, incluyendo su historial de detección.
       * Localizar la sección "Historia" o "Primera detección": Dentro de la pestaña "Detalles", busca una sección específica que indique el historial de detecciones del archivo. Esta sección podría estar titulada "Historia", "Primera detección" o algo similar.
       * Identificar la fecha y hora: En esta sección, encontrarás la fecha y hora en que el archivo fue detectado por primera vez en la base de datos de VirusTotal. Esta será la primera aparición pública registrada del malware.
+        
        ![Fecha y hora del malware](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/2.png)
             
   * El reconocimiento de una técnica MITRE específica empleada por el malware ayuda a desarrollar estrategias de defensa específicas. ¿Cuál es el ID de MITRE de la técnica utilizada por el malware para la recopilación de datos?
@@ -31,6 +33,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
       * Acceder al informe de VirusTotal: Asegúrate de estar en la página del informe detallado del archivo que estás analizando.
       * En el informe, busca una sección que detalle el comportamiento del malware. Esta sección puede estar titulada "Comportamiento", "Técnicas" o algo similar.
       * Dentro de la sección de comportamiento, busca una subsección o tabla que se refiera a MITRE ATT&CK. MITRE ATT&CK es un marco de trabajo para describir las tácticas y técnicas utilizadas por los adversarios cibernéticos.
+        
         ![ID Mitre](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/3.png)
         
   * Conocer los nombres de los archivos ejecutables arrojados por el malware ayuda a detectar y aislar las máquinas infectadas. ¿Cuál es el nombre del archivo ejecutable que arroja el malware?
@@ -38,6 +41,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
       * Acceder al informe de VirusTotal: Asegúrate de estar en la página del informe detallado del archivo que estás analizando.
       * En el informe, busca una sección que detalle los archivos relacionados con el malware. Esta sección puede estar titulada "Relaciones", "Archivos relacionados", "Archivos agrupados" o algo similar.
       * Dentro de esta sección, encontrarás una lista de archivos que están asociados con el malware. Busca el archivo que tenga una extensión típica de ejecutable, como .exe, .dll, o .scr. Este archivo es el que el malware utiliza para llevar a cabo sus acciones.
+        
         ![Archivo ejecutable](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/4.png)
         
   * Continuando con la pregunta anterior. ¿Puede identificar el nombre del segundo padre de ejecución observado en la naturaleza para el ejecutable detectado?
@@ -47,6 +51,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
       * En esta sección, encontrarás información sobre el proceso que inició directamente al archivo ejecutable (Install.exe). Este es el primer padre de ejecución.
       * Generalmente, al hacer clic en el nombre del primer padre, se abrirá un nuevo informe de VirusTotal para ese archivo específico.
       * En el nuevo informe del primer padre, busca nuevamente la sección de "Relaciones" o "Padres de ejecución". Aquí encontrarás información sobre el proceso que inició al primer padre. Este será el segundo padre de ejecución que estás buscando.
+        
         ![Segundo padre de ejecucion](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/5.png)
         
   * La identificación de los dominios utilizados en los ataques puede ayudar a bloquear futuras comunicaciones maliciosas y a comprender la infraestructura de los atacantes. ¿Qué dominio utiliza el actor de amenazas para alojar el instalador de aplicaciones ilegítimo?
@@ -59,6 +64,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
           * Puede ser necesario utilizar palabras clave como "scheta.site", "instalador ilegítimo", el nombre del malware (si se conoce) o cualquier otra información relevante.
       * Revisar la sección de "Direcciones URL":
           * Una vez localizada la publicación, buscar la sección específica que detalla las direcciones URL asociadas al malware.
+            
           * Esta sección podría incluir una lista de dominios, direcciones IP o enlaces a archivos.
             ![Dominio de actor de amenazas](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/6.png)
         
@@ -70,6 +76,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
       * Identificar el esquema URI:
           * Prestar especial atención a la mención del esquema URI. El esquema URI es la parte inicial de una dirección web que especifica el protocolo a utilizar (por ejemplo, http://, https://, mailto:, etc.).
           * En este caso, se nos indica que el malware explota el esquema "ms-appinstaller".
+            
             ![Controlador de protocolos](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/7.png)   
         
   * Descubrir al actor de amenazas asociado con este malware es clave para comprender sus tácticas, técnicas y procedimientos (TTP) y reforzar las defensas contra futuros ataques. ¿Puede proporcionar el nombre del actor de amenazas?
@@ -79,6 +86,7 @@ Como analista de inteligencia de amenazas en una importante empresa de seguridad
           * Concentrarse en la introducción o primeras secciones del artículo.
       * Identificar al actor de amenazas:
           * Los actores de amenazas suelen ser mencionados al principio del análisis, junto con una breve descripción de sus actividades y objetivos.
+            
           * En este caso, se nos proporciona el nombre del actor de amenazas: Storm-0569.
             ![Nombre actor de amenazas](https://github.com/Shispopo/Laboratorios-Ciberseguridad/blob/main/Cyberdefenders/MSIXPhish%20Lab/Imagenes/8.png)
     
