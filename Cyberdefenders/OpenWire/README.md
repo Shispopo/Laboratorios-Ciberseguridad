@@ -1,12 +1,12 @@
-## Laboratorio OpenWire
+# Laboratorio OpenWire
 
-### Escenario
+## Escenario
 Durante su turno como analista de SOC de nivel 2, recibe una escalada de un analista de nivel 1 con respecto a un servidor público. Este servidor ha sido marcado por realizar conexiones salientes a varias direcciones IP sospechosas. En respuesta, se inicia el protocolo estándar de respuesta a incidentes, que incluye el aislamiento del servidor de la red para evitar posibles movimientos laterales o exfiltración de datos y la obtención de una captura de paquetes de la utilidad NSM para su análisis. Su tarea es analizar el pcap y evaluar si hay signos de actividad maliciosa.
 
-### Herramientas Utilizadas
+## Herramientas Utilizadas
   * **Wireshark:** Para el análisis de paquetes de red.
 
-### Preguntas
+## Preguntas
 * Al identificar la IP C2, podemos bloquear el tráfico hacia y desde esta IP, lo que ayuda a contener la brecha y evitar una mayor exfiltración de datos o ejecución de comandos. ¿Puede proporcionar la IP del servidor C2 que se comunicó con nuestro servidor? 146.190.21.92
 * Los puntos de entrada iniciales son fundamentales para rastrear el vector de ataque. ¿Cuál es el número de puerto del servicio que explotó el adversario? 61616
 * Continuando con la pregunta anterior, ¿cuál es el nombre del servicio que se encontró vulnerable? Apache ActiveMQ
